@@ -200,10 +200,10 @@ section.topo-do-site .flex {
 }
 
 /* estilo do sobre */
+
 section.sobre {
     padding: 80px 4%;
     box-shadow: 0 0 50px 1px #ffffff1d;
-
 }
 
 section.sobre .flex {
@@ -231,12 +231,11 @@ section.sobre .flex {
     text-align: justify;
 }
 
-/* Estilo para botões das redes sociais */
+/* estilo btn das redes sociais */
 
 .btn-social {
     justify-content: center;
     align-items: center;
-
 }
 
 .btn-social a {
@@ -281,7 +280,7 @@ section.sobre .flex {
     background: linear-gradient(#7f37c9, #ff2992, #ff9807);
 }
 
-/* YouTube */
+/* github */
 .btn-social .bi-github {
     background-color: #000;
 }
@@ -290,6 +289,8 @@ section.sobre .flex {
 .btn-social .bi-linkedin {
     background-color: #0e76a8;
 }
+
+/* whatsapp */
 
 .btn-social .bi-whatsapp {
     background-color: #25D366;
