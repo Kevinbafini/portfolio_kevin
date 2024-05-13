@@ -30,3 +30,25 @@ body {
     background-color: #7465D4;
     border-radius: 8px;
 }
+
+/* interface e titulo */
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+
+h2.titulo {
+    color: #fff;
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span {
+    color: #7465D4;
+}
