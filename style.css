@@ -306,6 +306,7 @@ section.habilidades {
 
 section.habilidades .flex {
     gap: 60px;
+    flex-wrap: wrap;
 }
 
 .habilidades .habilidades-box {
@@ -314,6 +315,11 @@ section.habilidades .flex {
     border-radius: 20px;
     margin-top: 45px;
     transition: .2s;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .habilidades .habilidades-box:hover {
@@ -321,14 +327,16 @@ section.habilidades .flex {
     box-shadow: 0 0 20px #ffffff78;
 }
 
-.habilidades .habilidades-box i {
-    font-size: 70px;
+.habilidades .habilidades-box i,
+.habilidades .habilidades-box img {
+    font-size: 65px;
     color: #7465D4;
+    margin-bottom: 10px;
 }
 
 .habilidades .habilidades-box h3 {
-    font-size: 28px;
-    margin: 15px 0;
+    font-size: 24px;
+    margin-top: 10px;
 }
 
 /* estilo especialidades */
@@ -373,6 +381,7 @@ section.portfolio {
 section.portfolio .flex {
     justify-content: space-around;
     margin-top: 60px;
+    flex-wrap: wrap;
 }
 
 .img-port {
@@ -384,6 +393,7 @@ section.portfolio .flex {
     cursor: pointer;
     border-radius: 40px;
     position: relative;
+    margin-top: 30px;
 }
 
 .img-port:hover {
@@ -516,6 +526,11 @@ footer {
     list-style: none;
     transition: .2s;
     color: #fff;
+}
+
+.footer_lista .h3 {
+    position: relative;
+    left: 50%;
 }
 
 .footer_links {
@@ -672,6 +687,12 @@ footer {
         .habilidades {
             text-align: center;
         }
+
+        .footer_lista .h3 {
+            text-align: center;
+            position: relative;
+            left: 0;
+        }
     }
 
     @media screen and (max-width: 426px) {
@@ -687,6 +708,12 @@ footer {
         .habilidades {
             text-align: center;
         }
+
+        .footer_lista .h3 {
+            text-align: center;
+            position: relative;
+            left: 0;
+        }
     }
 
     @media screen and (max-width: 430px) {
@@ -701,6 +728,12 @@ footer {
 
         .habilidades {
             text-align: center;
+        }
+
+        .footer_lista .h3 {
+            text-align: center;
+            position: relative;
+            left: 0;
         }
     }
 }
