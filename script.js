@@ -15,3 +15,21 @@ menu.addEventListener('click', ()=>{
 overlay.addEventListener('click', ()=>{
     menu.classList.remove('abrir-menu')
 })
+
+// btn de voltar ao topo 
+
+window.onscroll = function() {
+    scrollFunction();
+};
+
+window.onscroll = function() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("btnVoltarAoTopo").style.display = "block";
+    } else {
+        document.getElementById("btnVoltarAoTopo").style.display = "none";
+    }
+};
+
+document.getElementById("btnVoltarAoTopo").onclick = function() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+};
