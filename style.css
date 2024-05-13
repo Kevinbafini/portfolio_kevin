@@ -199,6 +199,102 @@ section.topo-do-site .flex {
     }
 }
 
+/* estilo do sobre */
+section.sobre {
+    padding: 80px 4%;
+    box-shadow: 0 0 50px 1px #ffffff1d;
+
+}
+
+section.sobre .flex {
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre {
+    color: #fff;
+}
+
+.sobre .txt-sobre h2 {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+}
+
+.sobre .txt-sobre h2 span {
+    color: #7465D4;
+    display: block;
+}
+
+.sobre .txt-sobre p {
+    margin: 20px 0;
+    text-align: justify;
+}
+
+/* Estilo para botões das redes sociais */
+
+.btn-social {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn-social a {
+    margin: 5px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn-social button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.btn-social button:hover {
+    opacity: 0.8;
+}
+
+.btn-social .bi-instagram,
+.btn-social .bi-linkedin,
+.btn-social .bi-github,
+.btn-social .bi-whatsapp {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+/* Instagram */
+.btn-social .bi-instagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+/* YouTube */
+.btn-social .bi-github {
+    background-color: #000;
+}
+
+/* LinkedIn */
+.btn-social .bi-linkedin {
+    background-color: #0e76a8;
+}
+
+.btn-social .bi-whatsapp {
+    background-color: #25D366;
+}
+
 /* habilidades */
 
 section.habilidades {
