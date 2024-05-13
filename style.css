@@ -199,6 +199,39 @@ section.topo-do-site .flex {
     }
 }
 
+/* habilidades */
+
+section.habilidades {
+    padding: 80px 4%;
+}
+
+section.habilidades .flex {
+    gap: 60px;
+}
+
+.habilidades .habilidades-box {
+    color: #fff;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.habilidades .habilidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #ffffff78;
+}
+
+.habilidades .habilidades-box i {
+    font-size: 70px;
+    color: #7465D4;
+}
+
+.habilidades .habilidades-box h3 {
+    font-size: 28px;
+    margin: 15px 0;
+}
+
 /* estilo especialidades */
 section.especiliadades {
     padding: 80px 4%;
