@@ -791,6 +791,8 @@ footer {
     }
 
     @media screen and (max-width: 770px) {
+        /* footer */
+
         #footer_initial {
             grid-template-columns: repeat(1, 1fr);
             padding: 3rem 2rem;
