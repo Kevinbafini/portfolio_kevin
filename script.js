@@ -16,20 +16,21 @@ overlay.addEventListener('click', ()=>{
     menu.classList.remove('abrir-menu')
 })
 
-// btn de voltar ao topo 
+// Scroll to top button
 
-window.onscroll = function() {
-    scrollFunction();
-};
+const backToTopButton = document.getElementById('back-to-top');
 
-window.onscroll = function() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("btnVoltarAoTopo").style.display = "block";
+window.onscroll = function () {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        backToTopButton.style.display = 'block';
     } else {
-        document.getElementById("btnVoltarAoTopo").style.display = "none";
+        backToTopButton.style.display = 'none';
     }
 };
 
-document.getElementById("btnVoltarAoTopo").onclick = function() {
-    window.scrollTo({top: 0, behavior: 'smooth'});
+backToTopButton.onclick = function () {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
 };
